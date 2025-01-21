@@ -1,6 +1,6 @@
-# Minimal Typescript Express template with dependency injection
+# Minimal Typescript Express template with dependency injection (DEV version)
 ## Description
-Minimal example of Express application with Dependency Injection pattern.
+Minimal example of Express application with Dependency Injection pattern (for development environment).
 This projects includes 3 layers:
 - controllers
 - application (service layer)
