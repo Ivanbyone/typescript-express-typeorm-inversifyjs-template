@@ -25,7 +25,7 @@ export class AppController implements IController {
      */
     public async getProfileById(request: Request, response: Response): Promise<void> {
         try {
-            const profile = await this._service.getProfile(request.body['id']);
+            const profile = await this._service.getProfile(request.params['id']);
 
             if (profile === null) {
                 throw new ProfileNotFoundError("Profile was not found");

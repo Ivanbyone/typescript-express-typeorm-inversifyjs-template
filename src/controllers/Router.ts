@@ -20,6 +20,6 @@ export class AppRouter implements IRouter {
 
     get(): Router {
         return Router()
-            .get('/profile', this._controller.getProfileById)
+            .get('/profile/:id', this._controller.getProfileById)
     }
 }
