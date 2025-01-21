@@ -15,7 +15,7 @@ This projects includes 3 layers:
 ## Installation
 1. Clone this repository:
 ```bash
-   https://github.com/Ivanbyone/typescript-express-typeorm-inversifyjs-template.git
+   git clone https://github.com/Ivanbyone/typescript-express-typeorm-inversifyjs-template.git
 ```
 2. Create .env file as .env.example with your secrets.
 3. Create Docker image.
