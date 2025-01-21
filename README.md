@@ -1,7 +1,7 @@
 # Minimal Typescript Express template with dependency injection
 ## Description
 Minimal example of Express application with Dependency Injection pattern.
-This projects include 3 layers:
+This projects includes 3 layers:
 - controllers
 - application (service layer)
 - adapters (infrastructure layer).
@@ -12,3 +12,20 @@ This projects include 3 layers:
 - InversifyJs (Dependency Injection framework)
 - log4js
 - Docker
+## Installation
+1. Clone this repository:
+```bash
+   git clone https://github.com/vishnucprasad/express_ts.git
+```
+2. Create .env file as .env.example with your secrets.
+3. Create Docker image.
+```bash
+    docker build . -t <your_name>
+```
+4. Run docker
+```bash
+    docker run <your_name>
+```
+
+Congratulations! 
+Have a good development.
